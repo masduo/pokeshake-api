@@ -1,8 +1,8 @@
-name: .NET Core
+name: Build & Tests
 
 on:
   push:
-    branches: [ main, workflows ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -13,15 +13,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup .NET Core
+    - name: Build and Run Tests
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.301
     - name: Install dependencies
-      run: dotnet restore src 
+      run: dotnet restore src
     - name: Build
       run: dotnet build src --configuration Release
     - name: Unit Tests
-      run: dotnet test tests.unit 
+      run: dotnet test tests.unit
     - name: Integration Tests
-      run: dotnet test tests.integration 
+      run: dotnet test tests.integration
