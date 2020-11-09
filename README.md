@@ -1,6 +1,6 @@
 # PokeShake API (Pokemon but Shakespearean) 
 
-![Build and Tests](https://github.com/masduo/pokeshake-api/workflows/.NET%20Core/badge.svg?branch=workflows)
+![Build and Tests](https://github.com/masduo/pokeshake-api/workflows/.NET%20Core/badge.svg)
 
 A fresh perspective at the world of Pokemon! PokeShake API gets a Pokemon species name, and translates its flavor text to Shakespearean style.
 
