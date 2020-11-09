@@ -1,6 +1,6 @@
 # PokeShake API (Pokemon but Shakespearean) 
 
-![.Net Core](https://github.com/masduo/pokeshake-api/workflows/.NET%20Core/badge.svg)
+![Build & Tests](https://github.com/masduo/pokeshake-api/workflows/Build%20&%20Tests/badge.svg)
 
 A fresh perspective at the world of Pokemon! PokeShake API gets a Pokemon species name, and translates its flavor text to Shakespearean style.
 
@@ -75,7 +75,7 @@ To run in the local Kubernetes cluster. Since Skaffold is using Helm to install 
     skaffold dev
     ```
 
-# Features
+# Features 
 
 ### Stylecop
 
@@ -137,7 +137,7 @@ Cache-Control: private, max-age=43200, pre-check=86400, post-check=43200
 
 In order to scale, this would need to be upgraded to a distributed caching system like Redis.
 
-# Tests
+# Tests 🔬
 
 Two sets of test: Unit Tests, and Integration Tests. Run them using the dotnet CLI:
 
@@ -149,7 +149,7 @@ dotnet test tests.integration
 
 Tests are also run in `Dockerfile` to stop faulty code being built into a Docker image.
 
-# TODO
+# Todo 📝
 
 - `FunTranslationsApiClient` does not have automated tests. They would be similar to `PokeApiClientTests`.
 
