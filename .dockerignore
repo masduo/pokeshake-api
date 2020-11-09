@@ -1,0 +1,9 @@
+*
+!.stylecop/*
+!helm/*
+!src/*
+!tests.*
+**/obj
+**/bin
+**/.vs
+**/Properties
