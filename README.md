@@ -1,4 +1,6 @@
-# PokeShake API (Pokemon but Shakespearean)
+# PokeShake API (Pokemon but Shakespearean) 
+
+![.Net Core](https://github.com/masduo/pokeshake-api/workflows/.NET%20Core/badge.svg)
 
 A fresh perspective at the world of Pokemon! PokeShake API gets a Pokemon species name, and translates its flavor text to Shakespearean style.
 
@@ -11,7 +13,7 @@ A fresh perspective at the world of Pokemon! PokeShake API gets a Pokemon specie
 
 - Ther is a rate limit of 5 requests per hour. For production environment an API Key can be acquired and set during deployment. See below under Helm.
 
-# Run
+# Run 🚀
 
 Depending on the use case, choose one of the following three approaches to run the API locally.
 
@@ -37,7 +39,7 @@ To run and/or debug locally. Also to get secure connection:
 
 3. To get secure connection, trust the dotnet development certs `dotnet dev-certs https --trust` and then browse to https://localhost:5001/swagger
 
-## 2) Run with Docker or Docker Compose
+## 2) Run with Docker or Docker Compose 
 
 To run in Docker and test out the Dockerfile:
 
