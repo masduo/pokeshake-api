@@ -1,4 +1,6 @@
-# PokeShake API (Pokemon but Shakespearean) ![example branch parameter](https://github.com/masduo/pokeshake-api/workflows/Greet%20Everyone/badge.svg?branch=workflows)
+# PokeShake API (Pokemon but Shakespearean) 
+
+![Build and Tests](https://github.com/masduo/pokeshake-api/workflows/Greet%20Everyone/badge.svg?branch=workflows)
 
 A fresh perspective at the world of Pokemon! PokeShake API gets a Pokemon species name, and translates its flavor text to Shakespearean style.
 
